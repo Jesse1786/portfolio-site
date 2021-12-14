@@ -66,7 +66,7 @@ export const NavLink = styled.a`
   }
 `;
 
-/// DropDown Contact
+// DropDown Contact
 export const ContactDropDown = styled.button`
   border: none;
   display: flex;
@@ -112,9 +112,7 @@ export const NavProductsIcon = styled(IoIosArrowDropdown)`
   }
 `;
 
-
 // Social Icons 
-
 export const SocialIcons = styled.a`
 transition: 0.3s ease;
 color: white;
