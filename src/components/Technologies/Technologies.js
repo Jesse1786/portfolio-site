@@ -1,7 +1,7 @@
 import React from 'react';
-import { DiFirebase, DiReact, DiZend } from 'react-icons/di';
+import { DiFirebase, DiReact, DiGit } from 'react-icons/di';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
-import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
+import { List, ListContainer, ListItem, ListParagraph, ListTitle, LeftPad } from './TechnologiesStyles';
 
 const Technologies = () =>  (
   <Section id="tech">
@@ -9,32 +9,32 @@ const Technologies = () =>  (
     <SectionTitle main>Technologies</SectionTitle>
     <List>
       <ListItem>
-        <DiReact size="3rem" />
         <ListContainer>
-          <ListTitle>Front-End</ListTitle>
+          <ListTitle><DiReact size="3rem" /> <LeftPad>Front-End</LeftPad></ListTitle>
           <ListParagraph>
-            Experience with <br />
-            React.js
+            HTML, CSS, JavaScript <br />
+            React <br />
+            Bootstrap
           </ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
-        <DiFirebase size="3rem" />
         <ListContainer>
-          <ListTitle>Back-End</ListTitle>
+          <ListTitle><DiFirebase size="3rem" /> <LeftPad>Back-End</LeftPad></ListTitle>
           <ListParagraph>
-            Experience with <br />
-            Node and Databases
+            JavaScript, Java, Python, C <br />
+            Node, Express <br />
+            PostgreSQL, MongoDB, Neo4j
           </ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
-        <DiZend size="3rem" />
         <ListContainer>
-          <ListTitle>UI/UX</ListTitle>
+          <ListTitle><DiGit size="3rem" /> <LeftPad>Other</LeftPad></ListTitle>
           <ListParagraph>
-            Experience with <br />
-            tools like Figma
+            Git/GitHub <br />
+            Bash/Terminal <br />
+            Agile/SCRUM
           </ListParagraph>
         </ListContainer>
       </ListItem>

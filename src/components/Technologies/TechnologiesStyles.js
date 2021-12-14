@@ -61,6 +61,8 @@ export const ListContainer = styled.div`
 `
 
 export const ListTitle = styled.h4`
+  display: flex;
+  align-items: center;
   font-weight: 700;
   font-size: 28px;
   line-height: 32px;
@@ -130,4 +132,7 @@ export const ListIcon = styled.img`
     height: 32px;
     margin-bottom: 0px;
   }
+`
+export const LeftPad = styled.span`
+  padding-left: 8px;
 `

@@ -18,7 +18,7 @@ export const projects = [
     id: 1,
   },
   {
-    title: 'MERN Memories (WIP)',
+    title: 'Memories (WIP)',
     description: "Full stack MERN application and social media app that allows users to post interesting events that happened in their lives.",
     image: '/images/memories.png',
     tags: ['MongoDB', 'Express', 'React', 'Node'],
