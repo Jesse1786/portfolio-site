@@ -74,6 +74,16 @@ export const SubmitButton = styled.button`
   width: 160px;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
+
+  &:hover {
+    border: 2px solid grey;
+  }
+
+  &:active {
+    transform: translateY(1px);
+    background-color: #1f2255;
+  }
 `;
 
 export const FormText = styled.h4`

@@ -3,6 +3,9 @@ import Typical from "react-typical";
 import axios from "axios";
 import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faPaperPlane } from "@fortawesome/free-solid-svg-icons";
+
 import {
   Section,
   SectionDivider,
@@ -61,7 +64,6 @@ export default function Contact() {
         setMessage("");
       } else {
         toast.error("Uh-oh, something went wrong. Please try again later!");
-        return;
       }
     } catch (error) {
       console.log(error);
@@ -90,7 +92,9 @@ export default function Contact() {
           <FormLabel htmlFor="message">Message</FormLabel>
           <FormTextArea type="text" onChange={handleMessage} value={message} />
 
-          <SubmitButton type="submit">send</SubmitButton>
+          <SubmitButton type="submit">
+            send <FontAwesomeIcon icon={faPaperPlane} />
+          </SubmitButton>
         </FormBodyRight>
       </FormBody>
     </Section>
