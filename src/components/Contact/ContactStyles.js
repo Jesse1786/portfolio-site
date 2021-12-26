@@ -9,6 +9,11 @@ export const FormBody = styled.div`
   border-radius: 12px;
   justify-content: space-between;
   box-shadow: 3px 3px 20px rgb(80 78 78 / 50%);
+
+  @media ${(props) => props.theme.breakpoints.sm} {
+    flex-direction: column;
+    padding: 0px;
+  }
 `;
 
 export const FormBodyLeft = styled.div`
@@ -33,6 +38,10 @@ export const FormBodyRight = styled.form`
   opacity: 0.9;
   background-color: white;
   border-radius: 12px;
+
+  @media ${(props) => props.theme.breakpoints.sm} {
+    margin: 0px 8px;
+  }
 `;
 
 export const FormLabel = styled.label`
