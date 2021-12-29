@@ -46,7 +46,7 @@ export const CompanyContainer = styled.div`
   @media ${(props) => props.theme.breakpoints.sm} {
     display: flex;
     flex-direction: column;
-    margin: 0 0 32px;
+    margin: 0;
     align-items: center;
   }
 `;
