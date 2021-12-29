@@ -12,7 +12,8 @@ export const FormBody = styled.div`
 
   @media ${(props) => props.theme.breakpoints.sm} {
     flex-direction: column;
-    padding: 0px;
+    padding: 0 0 5px;
+    margin-bottom: 25px;
   }
 `;
 
