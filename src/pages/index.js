@@ -4,15 +4,15 @@ import Projects from '../components/Projects/Projects';
 import Technologies from '../components/Technologies/Technologies';
 import Contact from '../components/Contact/Contact';
 import { Layout } from '../layout/Layout';
-import { Section } from '../styles/GlobalComponents';
+import { HeroSection, Section } from '../styles/GlobalComponents';
 
 const Home = () => {
   return (
     <Layout>
-      <Section grid>
+      <HeroSection grid>
         <Hero />
         <BgAnimation />
-      </Section>
+      </HeroSection>
       <Projects />
       <Technologies />
       <Contact />
