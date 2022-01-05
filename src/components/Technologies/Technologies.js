@@ -1,10 +1,10 @@
 import React from 'react';
 import { DiFirebase, DiReact, DiGit } from 'react-icons/di';
-import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
+import { SectionDivider, SectionTitle, TechSection } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle, LeftPad } from './TechnologiesStyles';
 
 const Technologies = () =>  (
-  <Section id="tech">
+  <TechSection id="tech">
     <SectionDivider />
     <SectionTitle main>Technologies</SectionTitle>
     <List>
@@ -39,7 +39,7 @@ const Technologies = () =>  (
         </ListContainer>
       </ListItem>
     </List>
-  </Section>
+  </TechSection>
 );
 
 export default Technologies;
