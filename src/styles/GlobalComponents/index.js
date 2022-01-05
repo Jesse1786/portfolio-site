@@ -30,13 +30,13 @@ export const HeroSection = styled(Section)`
   align-items: center;
 
   @media ${(props) => props.theme.breakpoints.md} {
-    padding: 24px 48px 0;
+    padding: 24px 48px 0 0;
     flex-direction: column;
     height: auto;
   }
 
   @media ${(props) => props.theme.breakpoints.sm} {
-    padding: ${(props) => (props.nopadding ? "0" : "16px 16px 0")};
+    padding: ${(props) => (props.nopadding ? "0" : "30px 16px 50px")};
 
     width: calc(100vw - 32px);
     flex-direction: column;
@@ -104,6 +104,7 @@ export const SectionTitle = styled.h2`
 `;
 
 export const SectionText = styled.p`
+  width: 80vw;
   max-width: 800px;
   font-size: 24px;
   line-height: 40px;
@@ -112,6 +113,7 @@ export const SectionText = styled.p`
   color: rgba(255, 255, 255, 0.5);
 
   @media ${(props) => props.theme.breakpoints.md} {
+    width: auto;
     max-width: 670px;
     font-size: 20px;
     line-height: 32px;
@@ -119,6 +121,7 @@ export const SectionText = styled.p`
   }
 
   @media ${(props) => props.theme.breakpoints.sm} {
+    width: auto;
     font-size: 16px;
     line-height: 24px;
     padding-bottom: 16px;
