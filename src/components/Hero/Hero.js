@@ -1,5 +1,6 @@
 import Link from "next/link";
 import React from "react";
+import Typical from "react-typical";
 
 import {
   Section,
@@ -14,7 +15,15 @@ const Hero = (props) => (
     <LeftSection>
       <SectionTitle main center>
         Hello! I'm Jesse,
-        <br />a full stack developer.
+        <br />a {' '}
+        <Typical loop={Infinity} wrapper="span" steps={[
+          "full stack developer.",
+          2000,
+          "MERN stack developer.",
+          2000,
+          "green tea enthusiast.",
+          2000,
+        ]} />
       </SectionTitle>
       <SectionText>
         Currently completing my fourth year in Computer Science at the

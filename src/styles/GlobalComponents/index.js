@@ -29,6 +29,10 @@ export const HeroSection = styled(Section)`
   height: 80vh;
   align-items: center;
 
+  @media (min-width: 768px) and (max-width: 1100px) {
+    padding-left: 48px;
+  }
+
   @media ${(props) => props.theme.breakpoints.md} {
     padding: 24px 48px 0 0;
     flex-direction: column;
