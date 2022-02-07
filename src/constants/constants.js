@@ -4,8 +4,8 @@ export const projects = [
     description: "Full stack PERN application which functions as an Airbnb for pets, and facilitates interactions between pet owners and service providers.",
     image: '/images/pawsup.png',
     tags: ['PostgreSQL', 'Express', 'React', 'Node'],
-    source: 'https://github.com/Jesse1786/pawsup',
-    visit: 'https://cscc01-pawsup.herokuapp.com/',
+    source: 'https://cscc01-pawsup.herokuapp.com/',
+    visit: 'https://github.com/Jesse1786/pawsup',
     id: 0,
   },
   {
@@ -14,7 +14,7 @@ export const projects = [
     image: '/images/zoomer.png',
     tags: ['Java', 'Neo4j', 'MongoDB', 'PostgreSQL'],
     source: 'https://github.com/Jesse1786/zoomer',
-    visit: '/',
+    visit: 'https://github.com/Jesse1786/zoomer',
     id: 1,
   },
   {
