@@ -64,10 +64,10 @@ export default function Header() {
         </li>
       </Div2>
       <Div3 collapse={navCollapse}>
-        <SocialIcons href="http://github.com">
+        <SocialIcons href="https://github.com/Jesse1786">
           <AiFillGithub size="3rem" />
         </SocialIcons>
-        <SocialIcons href="http://linkedin.com">
+        <SocialIcons href="https://www.linkedin.com/in/jesse-z-b35716197/">
           <AiFillLinkedin size="3rem" />
         </SocialIcons>
         <SocialIcons href="http://twitter.com">
