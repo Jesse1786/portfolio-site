@@ -1,6 +1,6 @@
 import Link from "next/link";
 import React from "react";
-import Typical from "react-typical";
+import { Typewriter } from "react-simple-typewriter";
 
 import {
   Section,
@@ -15,15 +15,23 @@ const Hero = (props) => (
     <LeftSection>
       <SectionTitle main center>
         Hello! I'm Jesse,
-        <br />a {' '}
-        <Typical loop={Infinity} wrapper="span" steps={[
-          "full stack developer.",
-          2000,
-          "MERN stack developer.",
-          2000,
-          "QA Analyst.",
-          2000,
-        ]} />
+        <br />
+        a{" "}
+        <span style={{ color: "#00bfff" }}>
+          <Typewriter
+            words={[
+              "full stack developer.",
+              "MERN stack developer.",
+              "QA Analyst.",
+            ]}
+            loop={0}
+            cursor
+            cursorStyle="|"
+            typeSpeed={70}
+            deleteSpeed={50}
+            delaySpeed={1500}
+          />
+        </span>
       </SectionTitle>
       <SectionText>
         Recent Computer Science graduate from the University of Toronto with experience in full-stack web development and QA.
