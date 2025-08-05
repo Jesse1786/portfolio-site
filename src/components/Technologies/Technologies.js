@@ -13,7 +13,7 @@ const Technologies = () =>  (
           <ListTitle><DiReact size="3rem" /> <LeftPad>Front-End</LeftPad></ListTitle>
           <ListParagraph>
             HTML, CSS, JavaScript <br />
-            React <br />
+            Next.js, Material UI <br />
             Bootstrap
           </ListParagraph>
         </ListContainer>
@@ -32,9 +32,9 @@ const Technologies = () =>  (
         <ListContainer>
           <ListTitle><DiGit size="3rem" /> <LeftPad>Other</LeftPad></ListTitle>
           <ListParagraph>
-            Git/GitHub <br />
-            Bash/Terminal <br />
-            Agile/SCRUM
+            Git<br />
+            Bash <br />
+            Docker, GCP VM
           </ListParagraph>
         </ListContainer>
       </ListItem>

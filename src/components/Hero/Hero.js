@@ -21,13 +21,12 @@ const Hero = (props) => (
           2000,
           "MERN stack developer.",
           2000,
-          "green tea enthusiast.",
+          "QA Analyst.",
           2000,
         ]} />
       </SectionTitle>
       <SectionText>
-        Currently completing my fourth year in Computer Science at the
-        University of Toronto. I love building web applications.
+        Recent Computer Science graduate from the University of Toronto with experience in full-stack web development and QA.
       </SectionText>
       <Link href="#projects">
         <Button>Learn More</Button>
