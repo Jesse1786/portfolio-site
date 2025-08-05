@@ -1,7 +1,9 @@
+> This is a legacy portfolio site. A new portfolio site is coming soon!
+
 ## Portfolio v1.1
 Portfolio site that I built while learning about React.
 
-## Prerequisites
+## Prerequisiteså
 - Node.js
 
 ## Installation
